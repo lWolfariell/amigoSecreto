@@ -52,8 +52,12 @@ function sortearAmigo(){
     if (amigos.length === 0){
         alert('Por gentileza informar um amigo antes de sortear!');
     } else {
-        let amigoSorteado = Math.floor(Math.random()*amigos.length);    
-        alert("Seu amigo secreto é: " + amigos[amigoSorteado] );        
+        listaAmigos.innerHTML = '';
+        let amigoSorteado = Math.floor(Math.random()*amigos.length);      
+        // Criar um novo item e exibir apenas o sorteio atual
+        let li = document.createElement('li');
+        li.textContent = "Seu amigo secreto é: " + amigos[amigoSorteado];
+        listaAmigos.appendChild(li); 
     }
 }
 
