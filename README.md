@@ -20,12 +20,6 @@ sortear um amigo secreto. Ideal para grupos de amigos, familiares ou colegas de 
 4. O nome do amigo secreto será exibido na tela.
 5. Caso deseje sortear novamente, basta clicar no botão para um novo sorteio.
 
-## Onde os Usuários Podem Encontrar Ajuda
-
-Caso você tenha algum problema ou dúvida sobre como utilizar o site, por favor, consulte a seção de ajuda no próprio site ou entre em contato com os desenvolvedores.
-
-Se você precisar de suporte adicional, você pode acessar o repositório do projeto no GitHub ou abrir uma *issue* para relatar problemas.
-
 ## Autores do Projeto
 
-- **Seu Nome** (ou os nomes dos colaboradores)
+- **lWolfariel**
