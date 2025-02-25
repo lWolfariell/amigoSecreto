@@ -7,8 +7,8 @@ let listaAmigos = document.getElementById('listaAmigos')
 // Evento para pressionar "Enter" no campo de input
 document.getElementById("amigo").addEventListener('keydown', (event) => {
     if (event.key === 'Enter') {
-        event.preventDefault();  // Previne o comportamento padrão (evita enviar formulário ou recarregar a página)
-        adicionarAmigo();  // Chama a função para adicionar o amigo
+        event.preventDefault(); 
+        adicionarAmigo();  
     }
 });
 
